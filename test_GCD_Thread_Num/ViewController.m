@@ -30,7 +30,16 @@
     // - can control max thread count
 //    [self test_NSOperationQueue_withMaxTheadCount:2];
 //    [self test_QSDispatchQueue_withMaxTheadCount:2];
-    [self test_GCD_semaphore_WithMaxTheadCount:10];
+//    [self test_GCD_semaphore_WithMaxTheadCount:10];
+  
+  
+  //-test more complex business
+  UIViewController *vc = [NSClassFromString(@"OneViewController") new];
+  UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+  [self presentViewController:nav animated:YES completion:^{
+    
+  }];
+  
 }
 
 

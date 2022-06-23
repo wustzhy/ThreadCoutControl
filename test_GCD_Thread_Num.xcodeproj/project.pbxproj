@@ -14,6 +14,7 @@
 		7192D9071F339EBE00024E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7192D9061F339EBE00024E1F /* Assets.xcassets */; };
 		7192D90A1F339EBE00024E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7192D9081F339EBE00024E1F /* LaunchScreen.storyboard */; };
 		7192D9141F339F6600024E1F /* QSDispatchQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7192D9131F339F6600024E1F /* QSDispatchQueue.m */; };
+		C3B00DFB2864614300DB365C /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B00DFA2864614300DB365C /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		7192D9131F339F6600024E1F /* QSDispatchQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSDispatchQueue.m; sourceTree = "<group>"; };
 		7192D9171F339FC000024E1F /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
 		7192D91A1F339FC000024E1F /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		C3B00DF92864614300DB365C /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		C3B00DFA2864614300DB365C /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				7192D8FE1F339EBE00024E1F /* AppDelegate.m */,
 				7192D9001F339EBE00024E1F /* ViewController.h */,
 				7192D9011F339EBE00024E1F /* ViewController.m */,
+				C3B00DF92864614300DB365C /* OneViewController.h */,
+				C3B00DFA2864614300DB365C /* OneViewController.m */,
 				7192D9111F339F6600024E1F /* Dispatch_Control */,
 				7192D9031F339EBE00024E1F /* Main.storyboard */,
 				7192D9061F339EBE00024E1F /* Assets.xcassets */,
@@ -144,6 +149,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -176,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7192D9021F339EBE00024E1F /* ViewController.m in Sources */,
+				C3B00DFB2864614300DB365C /* OneViewController.m in Sources */,
 				7192D9141F339F6600024E1F /* QSDispatchQueue.m in Sources */,
 				7192D8FF1F339EBE00024E1F /* AppDelegate.m in Sources */,
 				7192D8FC1F339EBE00024E1F /* main.m in Sources */,
@@ -335,6 +342,7 @@
 				7192D9101F339EBE00024E1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
